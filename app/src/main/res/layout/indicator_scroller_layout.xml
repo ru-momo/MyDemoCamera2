@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.momo.camera2test.UI.IndicatorScroller
+        android:id="@+id/canera_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            style="@style/cameraScrollerBar"
+            android:text="@string/camera_video" />
+
+        <TextView
+            style="@style/cameraScrollerBar"
+            android:text="@string/camera_picture" />
+
+        <TextView
+            style="@style/cameraScrollerBar"
+            android:text="@string/camera_portrait" />
+        <TextView
+            style="@style/cameraScrollerBar"
+            android:text="@string/camera_portrait" />
+        <TextView
+            style="@style/cameraScrollerBar"
+            android:text="@string/camera_portrait" />
+        <TextView
+            style="@style/cameraScrollerBar"
+            android:text="@string/camera_portrait" />
+    </com.momo.camera2test.UI.IndicatorScroller>
+
+</LinearLayout>
